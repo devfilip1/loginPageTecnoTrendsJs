@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form novalidate>
+        <fieldset>
+            <img src="/images/logoprincipal.png" alt="Logo Tecnotrends">
+            <h1>Entrar</h1>
+            <div id="divLogin">
+                <label for="login">E-mail</label>
+                <input id="login" type="email" placeholder="Digite seu e-mail ou cpf">
+                <p>campo obrigatório!</p>
+            </div>
+            <div id="divPassword">
+                <label for="password">Senha</label>
+                <input id="password" type="password" placeholder="Digite sua senha">
+                <span class="toggle-password" id="eyes">👁️</span>
+                <p>campo obrigatório!</p>
+            </div>
+            <a href="">Receber link de acesso por email</a>
+            <button type="submit" id="button">Enviar</button>
+        </fieldset>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
